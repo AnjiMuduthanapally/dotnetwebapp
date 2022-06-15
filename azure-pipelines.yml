@@ -30,19 +30,12 @@ steps:
     command: 'test'
     projects: '$(solution)'
     arguments: '--configuration $(BuildConfiguration)'
-
-- task: DotNetCoreCLI@2
-  name: 'Publish'
-  displayName: 'Publish'
+- task: CopyFiles@2
   inputs:
-    command: 'publish'
-    publishWebProjects: false
-    projects: '$(project)'
-    arguments: '--configuration $(BuildConfiguration) --output $(BuildArtifactStagingDirectory)'
-    zipAfterPublish: false
+    SourceFolder: '- task: DotNetCoreCLI@2   name: ''Publish''   displayName: ''Publish''   inputs:     command: ''publish''     publishWebProjects: false     projects: ''$(project)''     arguments: ''--configuration $(BuildConfiguration) --output $(BuildArtifactStagingDirectory)''     zipAfterPublish: false - task: PublishBuildArtifacts@1   name: ''PublishBuildArtifacts''   displayName: ''Publish build artifacts''   inputs:     PathtoPublish: ''$(Build.ArtifactStagingDirectory)''     ArtifactName: ''drop''     publishLocation: ''Container'''
+    Contents: '**/*.zip'
+    TargetFolder: '$(build.artifactstagingdirectory)'
 - task: PublishBuildArtifacts@1
-  name: 'PublishBuildArtifacts'
-  displayName: 'Publish build artifacts'
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'drop'
