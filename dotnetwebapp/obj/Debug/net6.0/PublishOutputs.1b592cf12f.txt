@@ -1,0 +1,7 @@
+C:\Users\AnjiMuduthanapally\dotnetapplications\dotnetwebapp\bin\Debug\net6.0\publish\dotnetwebapp.exe
+C:\Users\AnjiMuduthanapally\dotnetapplications\dotnetwebapp\bin\Debug\net6.0\publish\appsettings.Development.json
+C:\Users\AnjiMuduthanapally\dotnetapplications\dotnetwebapp\bin\Debug\net6.0\publish\appsettings.json
+C:\Users\AnjiMuduthanapally\dotnetapplications\dotnetwebapp\bin\Debug\net6.0\publish\dotnetwebapp.dll
+C:\Users\AnjiMuduthanapally\dotnetapplications\dotnetwebapp\bin\Debug\net6.0\publish\dotnetwebapp.deps.json
+C:\Users\AnjiMuduthanapally\dotnetapplications\dotnetwebapp\bin\Debug\net6.0\publish\dotnetwebapp.runtimeconfig.json
+C:\Users\AnjiMuduthanapally\dotnetapplications\dotnetwebapp\bin\Debug\net6.0\publish\dotnetwebapp.pdb

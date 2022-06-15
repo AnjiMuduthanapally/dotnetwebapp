@@ -1,0 +1,7 @@
+C:\Users\AnjiMuduthanapally\dotnetapplications\publish\dotnetwebapp.exe
+C:\Users\AnjiMuduthanapally\dotnetapplications\publish\appsettings.Development.json
+C:\Users\AnjiMuduthanapally\dotnetapplications\publish\appsettings.json
+C:\Users\AnjiMuduthanapally\dotnetapplications\publish\dotnetwebapp.dll
+C:\Users\AnjiMuduthanapally\dotnetapplications\publish\dotnetwebapp.deps.json
+C:\Users\AnjiMuduthanapally\dotnetapplications\publish\dotnetwebapp.runtimeconfig.json
+C:\Users\AnjiMuduthanapally\dotnetapplications\publish\dotnetwebapp.pdb
