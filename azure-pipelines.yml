@@ -7,8 +7,8 @@ pool:
 variables:
   buildPlatform: 'ANy CPU'
   buildConfiguration: 'Release'
-  solution: '**/dotnetwebapp/mysolution.sln.sl'
-  project: '**/dotnetwebapp/dotnetwebapp/dotnetwebapp.csproj'
+  solution: '**/*.sln'
+  project: '**/*.csproj'
 
 steps:
 - task: NuGetToolInstaller@1
